@@ -1,0 +1,147 @@
+
+
+/*---------- MEDIA 768px ----------*/
+@media  (max-width: 768px) {
+    .slide-text {
+        padding: 10px 50px;
+    }
+    .slide-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .slide-text > p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .control-round .carousel-control{
+        display: none;
+    }
+	
+	.fst{padding-left:inherit;}
+	
+	.cust_tab{padding:0px;}
+	.seg_cnt {padding: 8px;}
+	
+		
+.lab span {
+  border-left: 0px;
+}
+.lab h4 {
+  width: auto;
+}
+.high ul li {
+    width: 100%;
+}
+
+.high {
+    padding-left: 0px;
+}
+
+  .inpt input{
+	  box-shadow:none !important;
+	  color:#ccc;
+	  text-align:right;
+	  font-size: 12px;
+	  width: 50%;
+	  }
+	  
+	  .mp {
+    height: auto;
+}
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .tab_detail main label {
+    font-size: 10px;
+    padding: 7px 13px;
+}
+
+
+.parter_detail main input:checked + label, .parter_detail main label{padding: 7px 13px;}
+
+  .tab_detail main label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+
+
+  @media screen and (max-width: 600px) {
+
+    table {
+      border: 0;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    table td {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+	
+	 
+
+	
+	
+.main_title{
+	text-align:right;}
+	
+  }
+
+
+@media  (max-width: 480px) {
+    .slide-text {
+        padding: 10px 30px;
+    }
+    .slide-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .slide-text > p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .slide-text > a.btn-default, 
+    .slide-text > a.btn-primary {
+        font-size: 10px;
+        line-height: 10px;
+        margin-right: 10px;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    .indicators-line > .carousel-indicators{
+        display: none;
+    }
+
+.cust_tab{padding:0px;}
+
+.seg_cnt {padding: 8px;}
+
+}
